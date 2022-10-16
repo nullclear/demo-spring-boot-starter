@@ -1,0 +1,20 @@
+spring:
+  profiles:
+    active: test
+
+---
+spring:
+  config:
+    activate:
+      on-profile: test
+logging:
+  level:
+    dev.yxy: debug
+demo:
+  enabled: true
+  sign-type: md5
+  release-info:
+    version: 1.0.0
+    author-name: nullclear
+    # springboot项目中yml数字开头为0时自动转换问题: https://blog.csdn.net/qq_33164327/article/details/122818401
+    number: "000051"

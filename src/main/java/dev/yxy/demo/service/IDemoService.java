@@ -1,9 +1,14 @@
 package dev.yxy.demo.service;
 
 /**
- * Created by atom on 2021/06/21
+ * 样例接口
+ *
+ * @author nullclear
+ * @since 2022-10-16
  */
 public interface IDemoService {
 
-    String introduceYourself();
+    String foo(String data);
+
+    String bar(String data);
 }

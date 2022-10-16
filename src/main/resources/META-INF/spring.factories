@@ -1,2 +1,1 @@
-# 自动装配
-org.springframework.boot.autoconfigure.EnableAutoConfiguration=dev.yxy.demo.config.DemoConfig
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=dev.yxy.demo.config.DemoAutoConfig
